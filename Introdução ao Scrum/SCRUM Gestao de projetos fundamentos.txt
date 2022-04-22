@@ -1,0 +1,21 @@
+Apenas 20% do software é aproveitado pela empresa metodo tradicional
+
+Gestao de Projetos
+
+Tradicional: metodo cascata (waterfall)
+Requisitos - Design - Implementação - Vetrificação - Manutenção
+Escopo definido na fase inicial
+Resistente a mudanças
+
+Agil: Matriz (SCRUM)
+Software construido por partes 
+cada parte - prazo 1 mes em media
+cada parte tem: Requisitos - Analise - Configuração - Testes - Liberação
+Escopo definido durante projeto
+Mudanças frequentes
+
+SCRUM é um dos frameworks de gerenciamento de projetos ageis
+equipes pequenas e multidicplinares para melhores resultados
+
+Pilares: transparencia, adaptação, inspeção
+

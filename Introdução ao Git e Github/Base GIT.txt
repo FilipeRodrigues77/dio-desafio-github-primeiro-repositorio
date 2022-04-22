@@ -1,0 +1,41 @@
+BLOBS (Bolha) | git hash-object --stdin
+guarda sha1 do arquivo
+
+
+echo (pegar string) git
+
+Blob tem o tipo do arquivo
+|0
+conteudo
+
+echo -e 'blob 9\0conteudo' | openssl sha1
+
+(explicação: Git armazena metadados na bolha sem alterar Sha1 dos arquivos)
+
+---------------------------------------------------
+TREES (Arvores) - armazena Blobs
+contem metadados
+guarda nome do arquivo
+Podem apontar blobs ou outras trees
+tem sha1 dos metadados das trees
+(interligada a sua bolha, se mudar uma virgula, muda Sha1)
+
+
+\0
+
+blob  
+---------------------------------------------------
+
+COMMITS
+
+aponta tree
+aponta parente (ultimo commit realizado antes dele)
+aponta autor
+aponta mensagem (quem ta alterando dados)
+aponta timestamp
+
+tem sha1 proprio
+
+ou seja, se alterar blob, o sha1 da arvore altera, o tree tambem altera sha1 e assim sucessivamente
+ou seja, se voce tem um commit, tem a garantia que ninguem alterou seu commit com o sha1 especifico.
+

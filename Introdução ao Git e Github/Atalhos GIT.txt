@@ -1,0 +1,30 @@
+git init (iniciar)
+
+comando de criar repositorio dentro diretorio / pasta
+
+git add (adicionar)
+
+git commit (criar commit)
+
+flag "-a" mostra arquivos ocultos
+
+ciclo git
+untracked (git nao atua ainda no arquivo)
+unmodified (não modificado)-modified (modificado)-Staged(pronto para ação)-volta para unmodified ciclo
+
+GIT tem a versão no repositor (GitHub) e tem versao de repositorio de trabalho (Working directory, staging area, local repository)
+Quando faz commit ele compoe o repositorio local.
+
+Git status (diz o estado do arquivo)
+
+mv (mover)
+
+git remote add origin (passar para o remoto)
+
+git push (empurrar git commit para remote git hub)
+
+git pull (puxar git do remote para local)
+
+conflito de merge ()
+
+Git clone (http...) (clonar git)
